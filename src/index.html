@@ -14,7 +14,7 @@
             </tr>
         </table>
 
-        <h3>about me<img align="right" src="assets/img/divider_r2l.png" width="75%" height="3px"/></h3>
+        <h3>about me<img align="center" src="assets/img/divider_r2l.png" width="90%" height="3px"/></h3>
 
         <p>My name is <strong>Zigmantas Kulikauskas</strong>. I am based in Vilnius, the capital of <a
                 href="https://www.w3schools.com/java/java_getstarted.asp">Lithuania</a>.</p>
@@ -33,14 +33,19 @@
             sports curriculum administration applications for Android.</p>
 
 
-        <h3>my projects on GitHub<img align="right" src="assets/img/divider_r2l.png"/></h3>
+        <h3>my projects on GitHub<img align="center" src="assets/img/divider_r2l.png" width="77%" height="3px" /></h3>
 
         <ul>
             <li><a href="https://github.com/lemontini/AutoHome">AutoHome</a></li>
             <li><a href="https://github.com/lemontini/Sporty">Sporty</a></li>
         </ul>
 
-        <h3>other activities<img align="right" src="assets/img/divider_r2l.png"/></h3>
+        <h3>other activities<img align="center" src="assets/img/divider_r2l.png" width="85%" height="3px" /></h3>
+
+<!--        <h3>other activities<div class="verticalcenter">-->
+<!--            <img align=right" src="assets/img/divider_r2l.png" alt="centered image" />-->
+<!--        </div></h3>-->
+
 
         <p>Also, I have studied personally and have experience in <a href="https://www.sketchup.com/">Sketchup</a>
             modeling. I have made a model of my own apartment, which was really helpful in setting up my personal living
@@ -49,14 +54,12 @@
             - a very easy to use and handy tool). And also - the basic knowledge of <a
                     href="https://www.w3schools.com/html/">html</a>,
             <a href="https://www.w3schools.com/css/) and [GIMP](https://www.gimp.org/">CSS</a> (I tend to prefer the
-            free
-            and opensource solutions rather than <a
+            free and opensource solutions rather than <a
                     href="https://www.adobe.com/products/photoshop.html?gclid=Cj0KCQjw8svsBRDqARIsAHKVyqHvKKyEnUodVeuAS8959FOMjsDeeWVAAFgrIzL3i5NKNW2c9I11sl0aAmMiEALw_wcB&sdid=KKQIL&mv=search&ef_id=Cj0KCQjw8svsBRDqARIsAHKVyqHvKKyEnUodVeuAS8959FOMjsDeeWVAAFgrIzL3i5NKNW2c9I11sl0aAmMiEALw_wcB:G:s&s_kwcid=AL!3085!3!247411118845!e!!g!!photoshop">Photoshop</a>
             comes in handy when you want to make the rendered design "alive": you can actually click on some of the
             equipment in the picture to be referenced to the actual equipment webpage:</p>
 
-        <img id="wc" src="assets/img/centriukasxl_wc.png" width="800" height="463" border="0"
-             usemap="#map" />
+        <img id="wc" src="assets/img/centriukasxl_wc.png" usemap="#map" />
         <map name="map">
             <area shape="poly" coords="251,444,262,376,258,292,284,267,323,264,348,293,350,359,362,415,345,463,260,462"
                   href="https://www.voniaplius.lt/viega-eco-plus-unitazo-remas-su-visign-for-style-10-chromuotu-mygtuku-bei-duravit-me-by-starck-compact-rimless-unitazo-komplektas"/>
@@ -74,18 +77,18 @@
                   href="https://vilmaelectric.lt/produkto-kategorija/express-xp-500/produktai/"/>
         </map>
 
-        <h4><a href="mailto:lemontini@gmail.com">contact me</a><img align="right" src="assets/img/divider_r2l.png"/>
+        <h4><a href="mailto:lemontini@gmail.com">contact me</a><img align="center" src="assets/img/divider_r2l.png" width="91.4%" height="3px" />
         </h4>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="jquery/jquery.rwdImageMaps.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/jquery.rwdImageMaps.min.js"></script>
         <script>
             $(document).ready(function (e) {
                 $('img[usemap]').rwdImageMaps();
 
-                $('area').on('click', function () {
-                    alert($(this).attr('alt') + ' clicked');
-                });
+                // $('area').on('click', function () {
+                //     alert($(this).attr('alt') + ' clicked');
+                // });
             });
         </script>
 
